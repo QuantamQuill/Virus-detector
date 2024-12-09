@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0f0f0f;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #00ff00;
+}
+
+.tagline {
+    color: #00cc00;
+    margin-bottom: 30px;
+}
+
+.upload-section, .results-section, .delete-section {
+    margin: 20px 0;
+}
+
+.file-upload-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00cc00;
+}
+
+.file-upload {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #0f0f0f;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #333;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #00ff00;
+    color: #0f0f0f;
+}
+
+#results {
+    margin-top: 20px;
+    color: #00cc00;
+}
+
+#delete-section {
+    display: none;
+}
